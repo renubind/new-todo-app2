@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background: wheat;
+  font-family: fantasy;
+  width: 100%;
+}
+h1{
+  color: lawngreen;
+  font-size: 36px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Todo_wrapper {
+  border: 2px solid #198546;
+  background-color: #193445;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.todo-button{
+border:2px solid rgb(37, 32, 32);
+background-image: linear-gradient(to bottom right ,#0F3443,#34E89E);
+background-color: #91ea3d;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+cursor: pointer;
+}
+
+
+.add-todo_wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  width: 80%;
+  height: min-content;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.add-todo_wrapper button{
+  background-color: #56f22b;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 20%;
+  border: none;
+  cursor: pointer;
+}
+
+.input_wrapper{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:2px solid rgb(37, 32, 32);
+  background-image: linear-gradient(to bottom right ,#0F3443,#34E89E);
+  background-color: #34E89E;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+
+}
+
+.input_wrapper input{
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px;
+}
+.todo-list_wrapper{
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+border-radius: 5px;
+}
+.todo-item_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:2px solid rgb(37, 32, 32);
+  background-image: linear-gradient(to bottom right ,#0F3443,#34E89E);
+  background-color: #34E89E;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  padding:10px;
+  height: 2rem;
+}
+
+.todo-item_wrapper button {
+  background-color: crimson;
+  border: none;
+  font-size: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button{
+  background-color: #8fed2a;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  width: 15%;
+  height: 2rem;
+  margin: 10px;
+  cursor: pointer;
+}
+.todo-item_wrapper h1{
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
